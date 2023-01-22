@@ -8,11 +8,11 @@ public class JavaMart {
         System.out.println("Can I get this car?");
         if(wallet >= car){
             System.out.println("Sure");
+            wallet -= car;
         } else {
             System.out.println("Sorry! I only have " + wallet + " left");
         }
 
-        wallet = 94.01;
         double price = 129.99;
 
         System.out.println("Can I get these nike shoes?");
